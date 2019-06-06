@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+form{
+    background-color: #fff;
+    align-self: center !important;
+    margin: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 10px 42px 242px 123px rgba(238,156,167,0.76);
+    -moz-box-shadow: 10px 42px 242px 123px rgba(238,156,167,0.76);
+    box-shadow: 10px 42px 242px 123px rgba(238,156,167,0.76);
+    border-radius: 10px;
+    border: 4px solid #49a09d;
+}
+form input {
+    border: 2px solid #B0CFE0 !important;
+}
+form button{
+    margin-left: 10px;
+}
+.textError {
+    color: #ff0000;
+}
+.errorBorder {
+    border: 2px solid red !important;
+}
