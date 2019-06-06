@@ -22,7 +22,7 @@ window.onload = function() {
             if (httpRequest.status === 200) {
                 let response = JSON.parse(httpRequest.responseText);
                 // console.log(response);
-               let q = findLabel(4,response);
+               let q = findLabel(4,response); // not working properly :c
                 console.log("--------------------------------");
                 console.log(q);
                 console.log("--------------------------------");
